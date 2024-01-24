@@ -11,7 +11,7 @@
         <router-link
           to="/software"
           active-class="active"
-          class="flex flex-col justify-center gap-2 p-6 bg-transparent shadow "
+          class="flex flex-col justify-center gap-2 p-6 bg-transparent "
         >
           <img
             class="w-3/6 py-6"
@@ -33,7 +33,7 @@
         <router-link
           to="/mobile"
           active-class="active"
-          class="flex flex-col justify-center gap-2 p-6 bg-transparent shadow "
+          class="flex flex-col justify-center gap-2 p-6 bg-transparent "
         >
           <img
             class="w-6/12 pr-7"
@@ -55,7 +55,7 @@
         <router-link
           to="/pcbuild"
           active-class="active"
-          class="flex flex-col justify-center gap-2 p-6 bg-transparent shadow "
+          class="flex flex-col justify-center gap-2 p-6 bg-transparent "
         >
           <img
             class="w-6/12 pr-9"
@@ -78,7 +78,7 @@
         <router-link
           to="/learn"
           active-class="active"
-          class="flex flex-col justify-center gap-2 p-6 bg-transparent shadow "
+          class="flex flex-col justify-center gap-2 p-6 bg-transparent "
         >
           <img
             class="w-3/6 py-2"
@@ -106,6 +106,7 @@
 <style scoped>
 .active {
   background-color: #fff;
+  box-shadow: rgba(0, 0, 0, 0.12) 0px 1px 3px, rgba(0, 0, 0, 0.24) 0px 1px 2px;
 
 }
 </style>

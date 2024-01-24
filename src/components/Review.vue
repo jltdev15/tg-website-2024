@@ -3,10 +3,13 @@
     class="flex justify-center py-12 bg-center bg-[url('../assets/images/tm-bg.jpeg')] bg-no-repeat bg-cover"
   >
     <div class="w-11/12">
-      <div class="py-3 text-center">
-        <h2 class="text-2xl font-bold text-[#d1d8e2] capitalize">
+      <div class="py-3 text-center ">
+       
+        <h2 class="text-2xl relative overflow-hidden inline-block px-4 py-2 font-bold text-[#fff] capitalize">
           Testimonials
+       
         </h2>
+       
         <p class="py-0 text-5xl font-semibold capitalize text-gray-50">
           What clients say
         </p>
@@ -33,7 +36,7 @@
           v-for="data in reviewData"
           :key="data.id"
         >
-          <div class="px-3 mt-12 py-6 bg-[#BDF1F6] mx-auto aspect-square ">
+          <div class="px-3 mt-12 py-6 bg-[#BDF1F6] mx-auto h-[20rem] ">
             <div class="absolute top-[-3%] left-[50%]  translate-x-[-50%] py-3">
               <img
                 class="h-20 mx-auto bg-white rounded-full"
@@ -47,7 +50,7 @@
               </p>
               <p class="text-center">{{ data.type }}</p>
               <strong class="absolute left-0 text-5xl font-bold"> &ldquo;</strong>
-              <p class="px-6 py-9">
+              <p class="px-6 py-1 mt-5">
                 {{ data.message }}
               </p>
               <strong class="absolute bottom-[-3] right-0 text-5xl font-bold"> &ldquo;</strong>
@@ -76,7 +79,7 @@ const imageUrl = "/customers/customer-6.jpg";
 const reviewData = [
   {
     id: 1,
-    name: "Juan Dela Cruz",
+    name: "Emma Thompson",
     type: "Entrepreneur",
     imgurl: "hannah.jpg",
     message:
@@ -84,7 +87,7 @@ const reviewData = [
   },
   {
     id: 2,
-    name: "Juana Dela Cruz",
+    name: "Jackson Reynolds",
     type: "Gamer",
     imgurl: "dave.jpg",
     message:
@@ -92,7 +95,7 @@ const reviewData = [
   },
   {
     id: 3,
-    name: "Juana Dela Cruz",
+    name: "Liam Anderson",
     type: "Business Owner",
     imgurl: "steve.jpg",
     message:
@@ -100,7 +103,7 @@ const reviewData = [
   },
   {
     id: 4,
-    name: "Juana Dela Cruz",
+    name: "Sophia Hayes",
     type: "Student",
     imgurl: "customer-6.jpg",
     message:
@@ -118,7 +121,12 @@ body {
   margin: 0;
   padding: 0;
 }
-
+.tape {
+  position: absolute;
+  width: 50px;
+  height: 10px;
+  background: #0245A3;
+}
 .swiper {
   padding: 10rem 0;
   width: 100%;

@@ -1,7 +1,7 @@
 import { createRouter, createWebHistory } from "vue-router";
 import MainView from "../views/MainView.vue";
-import SoftwareView from "../Services-content/SoftwareView.vue";
-import AppMobile from '../Services-content/MobileApp.vue'
+import SoftwareView from "../ServicesContent/SoftwareView.vue";
+import AppMobile from '../ServicesContent/MobileApp.vue'
 
 const router = createRouter({
   history: createWebHistory(import.meta.env.BASE_URL),
@@ -25,12 +25,12 @@ const router = createRouter({
         {
           path: "/pcbuild",
           name: "build",
-          component: () => import('../Services-content/PcBuild.vue')
+          component: () => import('../ServicesContent/PcBuild.vue')
         },
         {
           path: "/learn",
           name: "learn",
-          component: () => import('../Services-content/LearWithUs.vue')
+          component: () => import('../ServicesContent/LearWithUs.vue')
         },
       ],
     },

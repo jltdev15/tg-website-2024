@@ -25,7 +25,7 @@
               <p class="">Software and Mobile App Development</p>
             </div>
             <ul class="pl-12">
-              <li class="text-xl font-normal">
+              <li class="text-base font-normal">
                 We provide a custom url that will show the development logs and
                 progress of the projects in details. To ensure the development
                 timeline will meet.
@@ -38,7 +38,7 @@
               <p class="">PC Build and Repair</p>
             </div>
             <ul class="pl-12">
-              <li class="text-xl font-normal">
+              <li class="text-base font-normal">
                 We provide a custom url that will show the repair status or
                 build status of your device. To ensure the expected timeline
                 will meet.
@@ -51,7 +51,7 @@
               <p class="">Learning Progress</p>
             </div>
             <ul class="pl-12">
-              <li class="text-xl font-normal">
+              <li class="text-base font-normal">
                 We provide a Portal for each student that will show all the topics. To effectively track the progress of our learners.
               </li>
             </ul>
