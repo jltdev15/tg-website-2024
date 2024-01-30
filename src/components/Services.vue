@@ -1,6 +1,6 @@
 <template>
   <section class="flex justify-center py-24 bg-[#F2FCFC]">
-    <div class="w-11/12">
+    <div class="w-11/12 2xl:w-4/6">
       <div class="py-3">
         <h2 class="text-2xl font-bold text-[#0245A3] capitalize">Our Services</h2>
         <p class="py-0 text-5xl font-semibold text-gray-900 capitalize">

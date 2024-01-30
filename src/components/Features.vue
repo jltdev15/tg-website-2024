@@ -1,6 +1,6 @@
 <template>
   <section class="flex justify-center py-24 bg-[#ffffff]">
-    <div class="w-11/12">
+    <div class="w-11/12 2xl:w-4/6">
       <p class="text-2xl font-bold text-[#0245A3]">Features</p>
       <h3 class="text-5xl font-semibold capitalize">What makes us different</h3>
       <p class="py-2 text-lg">
@@ -57,9 +57,10 @@
             </ul>
           </div>
           <div class="w-full px-12 py-6">
-            <button
-              class="capitalize w-full flex justify-center items-center  bg-[#0245A3] hover:bg-[rgba(2,69,163,0.8)] gap-3 py-3 px-6 text-lg active:shadow-md transition-all font-bold text-gray-50"
-            >
+            <!-- <button
+              class="capitalize w-3/6 flex justify-center items-center  bg-[#0245A3] hover:bg-[rgba(2,69,163,0.8)] gap-3 py-3 px-6 text-lg active:shadow-md transition-all font-bold text-gray-50"
+            > -->
+            <button class=" text-[#0245A3] text-lg font-semibold py-3 px-6 flex gap-3 items-center outline-2 outline-blue-800 outline outline-offset-1 hover:bg-gray-100 transition-all hover:text-gray-800">
              Learn more <i class="fa-solid fa-arrow-right"></i>
             </button>
           </div>

@@ -2,7 +2,7 @@
   <section
     class="flex justify-center py-12 bg-center bg-[url('../assets/images/tm-bg.jpeg')] bg-no-repeat bg-cover"
   >
-    <div class="w-11/12">
+    <div class="w-11/12 2xl:w-4/6">
       <div class="py-3 text-center ">
        
         <h2 class="text-2xl relative overflow-hidden inline-block px-4 py-2 font-bold text-[#fff] capitalize">

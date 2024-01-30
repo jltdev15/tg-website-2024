@@ -1,6 +1,6 @@
 <template>
   <section class="flex justify-center py-16 bg-[#F2FCFC]">
-    <div class="w-11/12">
+    <div class="w-11/12 2xl:w-4/6">
       <div class="py-6">
         <h1 class="text-lg font-bold text-[#0245A3]">Top trending topics</h1>
         <p class="text-3xl text-gray-500">Discover all topics</p>

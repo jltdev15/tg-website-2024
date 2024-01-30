@@ -1,7 +1,7 @@
 <template>
   <section>
-    <header class="flex justify-center shadow-bot bg-gray-50">
-      <nav class="flex items-center justify-between w-5/6">
+    <header class="sticky flex justify-center shadow-bot bg-gray-50">
+      <nav class="flex items-center justify-between w-5/6 py-6 2xl:w-4/6">
         <a href="#" class="px-6">
           <img class="h-20" src="../assets/images/tg.png" alt="" />
         </a>

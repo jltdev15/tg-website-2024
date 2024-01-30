@@ -2,7 +2,7 @@
   <section class="py-20">
     <div class="flex flex-row-reverse items-center justify-between p-6">
       <div class="w-3/6">
-        <img class="w-5/6 mx-auto" src="../assets/images/pc-build.png" alt="" />
+        <img class="w-7/12 mx-auto" src="../assets/images/pc-build.png" alt="" />
       </div>
       <div class="w-3/6">
         <h2 class="block py-3 text-6xl font-bold">

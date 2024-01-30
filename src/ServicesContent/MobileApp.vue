@@ -3,13 +3,13 @@
     <div class="flex flex-row-reverse items-center justify-between p-6">
       <div class="w-3/6">
         <img
-          class="w-5/6 mx-auto"
+          class="w-7/12 mx-auto"
           src="../assets/images/app-dev-mobile.png"
           alt=""
         />
       </div>
       <div class="w-3/6">
-        <h2 class="block py-3 text-6xl font-bold">
+        <h2 class="block text-6xl font-bold">
           Mobile App<span class="block py-3 text-[#0245A3]"> Development</span>
         </h2>
         <p class="text-2xl font-semibold ">

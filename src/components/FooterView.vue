@@ -1,6 +1,6 @@
 <template>
   <section class="flex justify-center py-12 bg-[#F2FCFC]">
-    <div class="w-11/12">
+    <div class="w-11/12 2xl:w-4/6">
       <div class="grid grid-columns gap-x-10">
         <div class="flex flex-col gap-3">
           <div class="flex items-center gap-3">

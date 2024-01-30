@@ -7,7 +7,7 @@
         <img
           src="/customers/bg-author-profile.webp"
           alt=""
-          class="absolute w-2/6 left-[50%] translate-x-[-50%] top-[50%] rounded-full"
+          class="absolute w-5/12 left-[50%] translate-x-[-50%] top-[50%] rounded-full"
         />
       </header>
       <section class="text-center p-9 pt-28">
@@ -25,7 +25,7 @@
         </p>
         <div class="mt-12">
           <h3 class="text-2xl font-bold text-left">Stay Connected</h3>
-          <div class="flex flex-wrap justify-around gap-3 py-3">
+          <div class="flex flex-wrap justify-start gap-3 py-3">
             <button class="p-3 px-6 bg-blue-600">
               <i class="fa-brands text-gray-50 fa-facebook"></i>
             </button>

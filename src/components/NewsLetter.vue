@@ -9,7 +9,7 @@
       </p>
       <div class="w-[40%] mx-auto">
         <div class="relative flex items-center">
-          <input type="text" placeholder="enter your email here" class="pl-6  bg-[#F2FCFC] overflow-hidden w-full flex-initial py-5  rounded-full" />
+          <input type="text" placeholder="enter your email here" class="pl-6  bg-[#F2FCFC] overflow-hidden w-full flex-initial py-5  rounded-full focus:outline outline-2 outline-blue-900" />
           <button class="absolute right-2 h-3/4 px-6 rounded-tr-full rounded-br-full rounded-full bg-[#0245A3] text-gray-50">Subscribe</button>
         </div>
       </div>
