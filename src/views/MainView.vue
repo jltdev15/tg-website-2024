@@ -15,13 +15,13 @@ import CopyRight from "@/components/CopyRight.vue";
   <main>
     <navigation></navigation>
     <hero></hero>
-    <services></services>
+    <!-- <services></services>
     <features></features>
     <review></review>
     <blog></blog>
     <top-articles></top-articles>
     <news-letter></news-letter>
     <footer-view></footer-view>
-    <copy-right></copy-right>
+    <copy-right></copy-right> -->
   </main>
 </template>
