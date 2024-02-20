@@ -1,11 +1,11 @@
 <template>
-  <section class="py-20">
-    <div class="flex items-center justify-between p-6">
-      <div class="w-3/6">
-        <h2 class="block py-3 text-6xl font-bold">
-          Software<span class="block py-3 text-[#0245A3]"> Development</span>
+  <section class="sm:py-20">
+    <div class="flex flex-col-reverse items-center justify-between p-6 sm:flex-row">
+      <div class="sm:w-3/6">
+        <h2 class="block font-bold sm:py-3 sm:text-6xl">
+          Software<span class="sm:block sm:py-3 text-[#0245A3]"> Development</span>
         </h2>
-        <p class="text-2xl font-semibold ">
+        <p class="text-[0.7rem] font-semibold sm:text-2xl ">
           We have dedicated development Team
         </p>
         <p class="py-3 text-lg">
@@ -36,7 +36,7 @@
         </div>
       </div>
       <div>
-        <img class="w-4/6 mx-auto" src="../assets/images/js-dev.png" alt="" />
+        <img class="w-2/6 mx-auto sm:w-4/6" src="../assets/images/js-dev.png" alt="" />
       </div>
     </div>
   </section>
