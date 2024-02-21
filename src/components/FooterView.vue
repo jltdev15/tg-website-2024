@@ -1,7 +1,7 @@
 <template>
   <section class="flex justify-center py-12 bg-[#F2FCFC]">
-    <div class="w-11/12 2xl:w-4/6">
-      <div class="grid grid-columns gap-x-10">
+    <div class="w-full 2xl:w-4/6">
+      <div class="grid grid-cols-2 grid-columns gap-x-10">
         <div class="flex flex-col gap-3">
           <div class="flex items-center gap-3">
             <img class="w-[20%]" src="../assets/images/tg.png" alt="" />
@@ -78,8 +78,12 @@
 </template>
 
 <style scoped>
-.grid-columns {
-  grid-template-columns: 1fr 0.75fr 0.75fr 1fr;
+
+
+@media screen and (min-width: 1024px) {
+  .grid-columns {
+    grid-template-columns: 1fr 0.75fr 0.75fr 1fr;
+  }
 }
 
 </style>

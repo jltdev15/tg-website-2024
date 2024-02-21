@@ -37,9 +37,9 @@
     <section
       class="container flex flex-wrap items-center justify-between py-3 mx-auto md:static"
     >
-      <a href="#" class="px-6">
+      <router-link to="/" class="px-6">
         <img class="h-12 sm:h-16" src="../assets/images/tg.png" alt="" />
-      </a>
+      </router-link>
 
       <div
         :class="{ 'right-0': isNavShow, 'right-[-100%]': isNavHide }"

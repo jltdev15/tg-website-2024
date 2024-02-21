@@ -1,5 +1,5 @@
 <template>
-  <section class="sm:py-20">
+  <section class="py-20">
     <div class="flex flex-col items-center justify-between p-3 sm:p-6 sm:flex-row-reverse">
       <div class="sm:w-3/6">
         <img
@@ -9,13 +9,13 @@
         />
       </div>
       <div class="text-center sm:w-3/6">
-        <h2 class="block font-bold sm:text-left sm:text-6xl">
+        <h2 class="block text-2xl font-bold sm:text-left sm:py-3 sm:text-6xl">
           Mobile App<span class="sm:block sm:py-3 text-[#0245A3]"> Development</span>
         </h2>
         <p class="text-xs font-semibold sm:text-left sm:text-2xl ">
           We have dedicated development Team
         </p>
-        <p class="py-3 text-xs text-justify sm:text-lg">
+        <p class="px-3 py-3 text-sm text-justify sm:text-lg">
           Accelerate your business growth with cutting-edge mobile development
           solutions. Our expert team crafts high-performance, user-friendly
           mobile apps tailored to your unique business needs. From intuitive
@@ -25,21 +25,21 @@
           competitive market by harnessing the power of mobile technology to
           connect, engage, and thrive in the palm of your customers' hands.
         </p>
-        <div class="flex flex-col-reverse gap-3 sm:pt-6 sm:gap-5 sm:flex-row">
+        <div class="flex gap-3 px-3 py-3 r sm:pt-6 sm:gap-5 sm:flex-row">
           <button
-            class="flex capitalize text-base justify-center items-center gap-3 py-3 px-6 outline outline-offset-1 outline-1  sm:text-lg active:shadow-md transition-all font-bold text-[#0245A3] hover:text-[#0245a3b6]"
+            class="flex w-3/6  text-base  rounded justify-center capitalize items-center gap-3  px-3 sm:px-6  outline outline-offset-0 outline-1  sm:text-lg active:shadow-md transition-all font-bold text-[#0245A3] hover:text-[#0245a3b6]"
           >
-            Free consultation
+            Connect
             <i
               class="transition-all duration-150 sm:text-2xl fa-solid fa-envelope"
             ></i>
           </button>
           <button
-            class="flex text-base border justify-center border-blue-800 capitalize items-center bg-[#0245A3] hover:bg-[rgba(2,69,163,0.8)] gap-3 py-3 px-6 sm:text-lg  active:shadow-md transition-all font-bold text-gray-50 "
+            class="flex w-3/6 capitalize rounded border border-blue-800 text-base py-2  justify-center items-center bg-[#0245A3] outline-blue-800 outline-offset-1   outline-2 hover:bg-[rgba(2,69,163,0.8)] gap-3  px-6 sm:text-lg  active:shadow-md transition-all font-bold text-gray-50 "
           >
-            our rates
+             Our rates
             <i
-              class="text-base transition-all duration-150 sm:text-2xl fa-solid fa-dollar-sign"
+              class="transition-all duration-150 sm:text-2xl fa-solid fa-dollar-sign"
             ></i>
           </button>
         </div>
