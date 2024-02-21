@@ -163,7 +163,7 @@ function toggleMobileNav() {
 }
 
 #nav-icon1 {
-  width: 2rem;
+  width: 1.8rem;
   height: 1.6rem;
   position: relative;
   -webkit-transform: rotate(0deg);
@@ -179,7 +179,7 @@ function toggleMobileNav() {
 
 #nav-icon1 span {
   position: absolute;
-  height: 3px;
+  height: 2px;
   width: 100%;
 
   border-radius: 9px;

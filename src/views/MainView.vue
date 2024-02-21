@@ -13,8 +13,7 @@ import CopyRight from "@/components/CopyRight.vue";
 
 <template>
   <main>
-    <navigation></navigation>
-    <!-- <hero></hero> -->
+    <hero></hero>
     <services></services>
     <!-- <features></features>
     <review></review>

@@ -1,11 +1,11 @@
 <template>
-  <section class="sm:py-20">
+  <section class="py-20">
     <div class="flex flex-col-reverse items-center justify-between p-3 sm:p-6 sm:flex-row">
       <div class="text-center sm:w-3/6">
-        <h2 class="block font-bold sm:py-3 sm:text-6xl">
+        <h2 class="block font-bold sm:text-left sm:py-3 sm:text-6xl">
           Software<span class="sm:block sm:py-3 text-[#0245A3]"> Development</span>
         </h2>
-        <p class="text-xs font-semibold sm:text-2xl">
+        <p class="text-xs font-semibold sm:text-left sm:text-2xl">
           We have dedicated development Team
         </p>
         <p class="py-3 text-xs text-justify sm:text-lg">

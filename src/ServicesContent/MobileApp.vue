@@ -9,10 +9,10 @@
         />
       </div>
       <div class="text-center sm:w-3/6">
-        <h2 class="block font-bold sm:text-6xl">
+        <h2 class="block font-bold sm:text-left sm:text-6xl">
           Mobile App<span class="sm:block sm:py-3 text-[#0245A3]"> Development</span>
         </h2>
-        <p class="text-xs font-semibold sm:text-2xl ">
+        <p class="text-xs font-semibold sm:text-left sm:text-2xl ">
           We have dedicated development Team
         </p>
         <p class="py-3 text-xs text-justify sm:text-lg">
