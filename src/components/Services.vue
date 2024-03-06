@@ -1,6 +1,6 @@
 <template>
-  <section class="flex justify-center py-12 xs:px-6 sm:px-3 md:px-12 lg:px-3 bg-[#F2FCFC]">
-    <div class="w-full 2xl:w-5/6">
+  <section class="flex justify-center py-12 xs:px-6 sm:px-3 md:px-12 lg:px-6 xl:px-0 bg-[#F2FCFC]">
+    <div class="w-full sm:px-6 lg:px-16">
       <div class="px-3 py-3 sm:px-0">
         <h2 class="text-2xl font-bold text-[#0245A3] capitalize">
           Our Services
@@ -10,19 +10,11 @@
         </p>
       </div>
       <div
-        class="grid items-center grid-cols-2 gap-3 px-3 py-3 overflow-auto sm:px-9 lg:px-3 xs:gap-6 sm:bg-transparent sm:py-6 lg:grid-cols-4"
-      >
-        <router-link
-          to="/software"
-          active-class="active"
-          class="flex items-center p-3 py-6 bg-white rounded shadow"
-        >
+        class="grid items-center grid-cols-2 gap-3 px-3 py-3 overflow-auto sm:px-9 lg:px-3 xs:gap-6 sm:bg-transparent sm:py-6 lg:grid-cols-4">
+        <router-link to="/software" active-class="active" class="flex items-center p-3 py-3 bg-white rounded shadow">
           <div class="w-full ">
-            <img
-              class="w-8 h-auto xs:w-10 sm:w-20 lg:w-16 max-w-max"
-              src="../assets/images/app-dev.webp"
-              alt="Software Developement Services"
-            />
+            <img class="w-8 h-auto xs:w-10 sm:w-20 lg:w-16 max-w-max" src="../assets/images/app-dev.webp"
+              alt="Software Developement Services" />
             <div class="">
               <p class="leading-[1rem] text-lg py-4 font-bold">
                 Software Development
@@ -30,25 +22,17 @@
               <p class="hidden pb-3 text-sm leading-tight text-gray-900 sm:block">
                 We transform ideas into exceptional software solutions.
               </p>
-              <a
-                href=""
-                class="flex items-center justify-center gap-2 py-2 text-xs capitalize bg-[#0245A3] rounded text-gray-50"
-                >See More<i class="fa-solid fa-circle-arrow-right"></i
-              ></a>
+              <a href=""
+                class="flex items-center justify-center gap-2 py-2 text-xs capitalize bg-[#0245A3] rounded text-gray-50">See
+                More<i class="fa-solid fa-circle-arrow-right"></i></a>
             </div>
           </div>
         </router-link>
-        <router-link
-          to="/mobile"
-          active-class="active"
-          class="flex items-center justify-center p-3 py-6 bg-white rounded shadow"
-        >
+        <router-link to="/mobile" active-class="active"
+          class="flex items-center justify-center p-3 bg-white rounded shadow">
           <div class="w-full ">
-            <img
-              class="w-5 h-auto xs:w-9 sm:w-12 lg:w-10 max-w-max"
-              src="../assets/images/mobile.webp"
-              alt="Software Developement Services"
-            />
+            <img class="w-5 h-auto xs:w-9 sm:w-12 lg:w-10 max-w-max" src="../assets/images/mobile.webp"
+              alt="Software Developement Services" />
             <div class="">
               <p class="leading-[1rem] text-lg py-4 font-bold">
                 App Development
@@ -56,50 +40,32 @@
               <p class="hidden pb-3 text-sm leading-tight text-gray-900 sm:block">
                 Crafting mobile apps that move your business forward.
               </p>
-              <a
-                href=""
-                class="flex items-center justify-center gap-2 py-2 text-xs bg-[#0245A3] rounded text-gray-50"
-                >See More<i class="fa-solid fa-circle-arrow-right"></i
-              ></a>
+              <a href=""
+                class="flex items-center justify-center gap-2 py-2 text-xs bg-[#0245A3] rounded text-gray-50">See More<i
+                  class="fa-solid fa-circle-arrow-right"></i></a>
             </div>
           </div>
         </router-link>
-        <router-link
-          to="/pcbuild"
-          active-class="active"
-          class="flex items-center p-3 py-6 bg-white rounded shadow"
-        >
+        <router-link to="/pcbuild" active-class="active" class="flex items-center p-3 py-3 bg-white rounded shadow">
           <div class="w-full ">
-            <img
-              class="w-8 h-auto xs:w-9 lg:w-10 max-w-max"
-              src="../assets/images/tower-pc.webp"
-              alt="Software Developement Services"
-            />
+            <img class="w-8 h-auto xs:w-9 lg:w-10 max-w-max" src="../assets/images/tower-pc.webp"
+              alt="Software Developement Services" />
 
             <div class="">
               <p class="leading-[1rem] text-lg py-4 font-bold">PC Building</p>
               <p class="hidden pb-3 text-sm leading-tight text-gray-900 sm:block">
                 Crafting Your Digital Realm, Precision PC Builds.
               </p>
-              <a
-                href=""
-                class="flex items-center justify-center gap-2 py-2 text-xs  bg-[#0245A3] rounded text-gray-50"
-                >See More<i class="fa-solid fa-circle-arrow-right"></i
-              ></a>
+              <a href=""
+                class="flex items-center justify-center gap-2 py-2 text-xs  bg-[#0245A3] rounded text-gray-50">See
+                More<i class="fa-solid fa-circle-arrow-right"></i></a>
             </div>
           </div>
         </router-link>
-        <router-link
-          to="/learn"
-          active-class="active"
-          class="flex items-center p-3 py-6 bg-white rounded shadow"
-        >
-        <div class="w-full">
-            <img
-            class="w-10 h-auto xs:w-12 sm:w-14 lg:w-16 max-w-max"
-              src="../assets/images/tutorial.webp"
-              alt="Software Developement Services"
-            />
+        <router-link to="/learn" active-class="active" class="flex items-center p-3 py-3 bg-white rounded shadow">
+          <div class="w-full">
+            <img class="w-10 h-auto xs:w-12 sm:w-14 lg:w-16 max-w-max" src="../assets/images/tutorial.webp"
+              alt="Software Developement Services" />
             <div class="">
               <p class="leading-[1rem] text-lg pt-6 sm:pt-3 pb-3 font-bold">
                 Learn with Us
@@ -107,11 +73,8 @@
               <p class="hidden pb-3 text-sm leading-tight text-gray-900 sm:block">
                 We make web development accessible to everyone.
               </p>
-              <a class="flex items-center justify-center gap-2 py-2 text-xs capitalize bg-[#0245A3] rounded text-gray-50" href=""
-                >See more<i
-                  class="fa-solid fa-circle-arrow-right"
-                ></i
-              ></a>
+              <a class="flex items-center justify-center gap-2 py-2 text-xs capitalize bg-[#0245A3] rounded text-gray-50"
+                href="">See more<i class="fa-solid fa-circle-arrow-right"></i></a>
             </div>
           </div>
         </router-link>
@@ -127,6 +90,7 @@
   border-radius: 0.3rem;
 }
 </style>
+
 <script setup>
 import { reactive } from "vue";
 

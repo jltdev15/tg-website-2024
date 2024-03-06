@@ -13,22 +13,22 @@ const router = createRouter({
     },
     {
       path: "/software",
-      name: "software",
+      name: "Software Development",
       component: SoftwareView,
     },
     {
       path: "/mobile",
-      name: "mobile",
+      name: "Mobile Development",
       component: AppMobile,
     },
     {
       path: "/pcbuild",
-      name: "build",
+      name: "PC build",
       component: () => import("../ServicesContent/PcBuild.vue"),
     },
     {
       path: "/learn",
-      name: "learn",
+      name: "Learn With Us",
       component: () => import("../ServicesContent/LearWithUs.vue"),
     },
   ],
