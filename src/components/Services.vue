@@ -1,11 +1,11 @@
 <template>
-  <section class="flex justify-center py-12 xs:px-6 sm:px-3 md:px-12 lg:px-6 xl:px-0 bg-[#F2FCFC]">
+  <section class="flex justify-center py-3 xs:px-6 sm:px-3 md:px-12 lg:px-6 xl:px-0 bg-[#F2FCFC]">
     <div class="w-full sm:px-6 lg:px-16">
       <div class="px-3 py-3 sm:px-0">
-        <h2 class="text-2xl font-bold text-[#0245A3] capitalize">
+        <h2 class="font-bold capitalize lg:text-2xl">
           Our Services
         </h2>
-        <p class="py-0 font-semibold text-gray-900 capitalize sm:text-2xl lg:text-5xl">
+        <p class="py-0 text-2xl font-bold text-[#0245A3] capitalize lg:text-5xl">
           Diversified services for your convenient
         </p>
       </div>
