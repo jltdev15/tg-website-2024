@@ -1,88 +1,33 @@
 <template>
-  <!-- <section>
-    <header class="sticky flex justify-center shadow-bot bg-gray-50">
-      <nav class="flex items-center justify-between w-5/6 py-6 2xl:w-4/6">
-        <a href="#" class="px-6">
-          <img class="h-20" src="../assets/images/tg.png" alt="" />
-        </a>
-        <ul class="items-center hidden gap-0 text-lg font-semibold text-gray-800 sm:flex">
-          <li class="">
-            <a class="inline-block px-6 py-3 duration-1000 nav-link hover:text-[#0245A3] transition-all" href="#"
-              >Services</a
-            >
-          </li>
-          <li class="">
-            <a class="inline-block px-6 py-3 nav-link hover:text-[#0245A3] transition-all" href="#"
-              >Digital Solutions</a
-            >
-          </li>
-          <li>
-            <a class="inline-block px-6 py-3 nav-link hover:text-[#0245A3] transition-all" href="#"
-              >Best Build</a
-            >
-          </li>
-          <li>
-            <a class="inline-block px-6 py-3 nav-link hover:text-[#0245A3] transition-all" href="#">Contact Us</a>
-          </li>
-          <li>
-            <a class="inline-block px-6 py-3 nav-link hover:text-[#0245A3] transition-all" href="#">Support</a>
-          </li>
-        </ul>
-      </nav>
-    </header>
-  </section> -->
-  <nav
-    class="fixed top-0 z-50 w-full px-3 border-gray-200 shadow lg:px-6 bg-gray-50 sm:px-2 md:px-2 3xl:px-32"
-  >
-    <section
-      class="container flex flex-wrap items-center justify-between py-3 mx-auto md:static"
-    >
+
+  <nav class="fixed top-0 z-50 w-full px-3 border-gray-200 shadow lg:px-6 bg-gray-50 sm:px-2 md:px-2 3xl:px-32">
+    <section class="container flex flex-wrap items-center justify-between py-3 mx-auto md:static">
       <router-link to="/" class="px-6">
         <img class="h-12 sm:h-16" src="../assets/images/tg.png" alt="" />
       </router-link>
 
-      <div
-        :class="{ 'right-0': isNavShow, 'right-[-100%]': isNavHide }"
-        id="main-nav"
-        class="2xs:py-2 md:px-0 md:gap-2 lg:px-0 md:py-0 h-screen md:h-auto absolute capitalize bg-[#0245A3] text-gray-50 md:bg-transparent md:justify-between lg:justify-between  md:static md:flex top-[100%] lg:z-0 z-[999] animate__animated animate__fadeInLeft"
-      >
+      <div :class="{ 'right-0': isNavShow, 'right-[-100%]': isNavHide }" id="main-nav"
+        class="2xs:py-2 md:px-0 md:gap-2 lg:px-0 md:py-0 h-screen md:h-auto absolute capitalize bg-[#0245A3] text-gray-50 md:bg-transparent md:justify-between lg:justify-between  md:static md:flex top-[100%] lg:z-0 z-[999] animate__animated animate__fadeInLeft">
         <ul
-          class="flex flex-col gap-6 px-6 py-12 text-base font-semibold lg:text-base xs:px-12 md:gap-3 md:text-sm md:py-0 sm:text-lg md:text-gray-800 sm:px-16 md:items-center md:flex-row md:px-0 lg:gap-2"
-        >
+          class="flex flex-col gap-6 px-6 py-12 text-base font-semibold lg:text-base xs:px-12 md:gap-3 md:text-sm md:py-0 sm:text-lg md:text-gray-800 sm:px-16 md:items-center md:flex-row md:px-0 lg:gap-2">
           <li class="">
-            <a
-              class="inline-block px-6 py-3 duration-1000 nav-link hover:text-[#0245A3] transition-all"
-              href="#"
-              >Services</a
-            >
+            <a class="inline-block px-6 py-3 duration-1000 nav-link hover:text-[#0245A3] transition-all"
+              href="#">Services</a>
           </li>
           <li class="">
-            <a
-              class="inline-block px-6 md:px-3 py-3 nav-link hover:text-[#0245A3] transition-all"
-              href="#"
-              >Digital Solutions</a
-            >
+            <a class="inline-block px-6 md:px-3 py-3 nav-link hover:text-[#0245A3] transition-all" href="#">Digital
+              Solutions</a>
           </li>
           <li>
-            <a
-              class="inline-block px-6 md:px-3 py-3 nav-link hover:text-[#0245A3] transition-all"
-              href="#"
-              >Best Build</a
-            >
+            <a class="inline-block px-6 md:px-3 py-3 nav-link hover:text-[#0245A3] transition-all" href="#">Best
+              Build</a>
           </li>
           <li>
-            <a
-              class="inline-block px-6 md:px-3 py-3 nav-link hover:text-[#0245A3] transition-all"
-              href="#"
-              >Contact Us</a
-            >
+            <a class="inline-block px-6 md:px-3 py-3 nav-link hover:text-[#0245A3] transition-all" href="#">Contact
+              Us</a>
           </li>
           <li>
-            <a
-              class="inline-block px-6 py-3 nav-link hover:text-[#0245A3] transition-all"
-              href="#"
-              >Support</a
-            >
+            <a class="inline-block px-6 py-3 nav-link hover:text-[#0245A3] transition-all" href="#">Support</a>
           </li>
         </ul>
       </div>
@@ -99,12 +44,8 @@
           ></i>
         </button>
       </div> -->
-      <div
-        class="mr-3 md:hidden animate__animated animate__rubberBand"
-        id="nav-icon1"
-        @click="toggleMobileNav"
-        :class="{ open: isNavShow, '': isNavHide }"
-      >
+      <div class="mr-3 md:hidden animate__animated animate__rubberBand" id="nav-icon1" @click="toggleMobileNav"
+        :class="{ open: isNavShow, '': isNavHide }">
         <span class="bg-blue-800"></span>
         <span class="bg-blue-800"></span>
         <span class="bg-blue-800"></span>
@@ -150,6 +91,7 @@ function toggleMobileNav() {
 * {
   transition: 0.5s;
 }
+
 .social-ul {
   display: flex;
 }
@@ -231,15 +173,19 @@ function toggleMobileNav() {
 .nav-link {
   transition: 0.2s;
 }
+
 .nav-link:hover {
   transform: scale(0.9);
 }
+
 .nav-link {
   position: relative;
 }
+
 .nav-link:hover::after {
   width: 50%;
 }
+
 .nav-link::after {
   content: "";
   right: 25%;

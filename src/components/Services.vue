@@ -1,5 +1,5 @@
 <template>
-  <section class="flex xl:py-12 justify-center py-6 xs:px-6 sm:px-3 md:px-3 lg:px-6 xl:px-32 bg-[#F2FCFC]">
+  <section class="flex xl:py-12 justify-center py-12 xs:px-6 sm:px-3 md:px-3 lg:px-6 xl:px-32 bg-[#F2FCFC]">
     <div class="w-full sm:px-6 lg:px-3">
       <div class="px-3 sm:px-0">
         <h2 class="font-bold capitalize lg:text-2xl">

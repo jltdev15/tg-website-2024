@@ -12,10 +12,10 @@
           Learning By<span class="sm:block sm:py-3 text-[#0245A3]">
             Coding</span>
         </h2>
-        <p class="text-xs font-semibold sm:text-left sm:text-2xl">
+        <p class="px-3 py-1 text-xs font-semibold text-gray-500 sm:text-left sm:text-2xl">
           We have dedicated certified Instructor and Experienced IT personnel.
         </p>
-        <p class="px-3 py-3 text-sm text-justify sm:px-1 lg:text-base">
+        <p class="py-3 text-sm text-justify sm:px-1 lg:text-base">
           Our tutorials are crafted by industry experts, ensuring you receive
           up-to-date and relevant information. Engage in interactive lessons,
           hands-on exercises, and real-world examples to enhance your
@@ -30,7 +30,7 @@
             <i class="transition-all duration-150 sm:text-2xl fa-solid fa-envelope"></i>
           </button>
           <button
-            class="flex w-3/6 capitalize rounded border border-blue-800 text-base py-2 justify-center items-center bg-[#0245A3] outline-blue-800 outline-offset-1 outline-2 hover:bg-[rgba(2,69,163,0.8)] gap-3 px-6 sm:text-lg active:shadow-md transition-all font-bold text-gray-50">
+            class="flex w-4/6 capitalize rounded border border-blue-800 text-base py-2 justify-center items-center bg-[#0245A3] outline-blue-800 outline-offset-1 outline-2 hover:bg-[rgba(2,69,163,0.8)] gap-3 px-6 sm:text-lg active:shadow-md transition-all font-bold text-gray-50">
             Our rates
             <i class="transition-all duration-150 sm:text-2xl fa-solid fa-dollar-sign"></i>
           </button>

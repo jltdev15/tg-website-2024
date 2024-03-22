@@ -19,7 +19,7 @@
             </div>
           </div>
           <div class="row-start-1 justify-items-center">
-            <img class="" src="../assets/images/hero.png" alt="" />
+            <img class="p-12 lg:px-0" src="../assets/images/hero.png" alt="" />
           </div>
         </div>
       </section>

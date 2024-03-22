@@ -16,8 +16,8 @@ import CopyRight from "@/components/CopyRight.vue";
     <hero></hero>
     <services></services>
     <features></features>
-    <!-- <review></review>
-    <blog></blog>
+    <review></review>
+    <!-- <blog></blog>
     <top-articles></top-articles>
     <news-letter></news-letter> -->
 

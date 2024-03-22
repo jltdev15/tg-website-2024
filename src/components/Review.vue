@@ -1,48 +1,29 @@
 <template>
-  <section
-    class="flex justify-center py-12 bg-center bg-[url('../assets/images/tm-bg.jpeg')] bg-no-repeat bg-cover"
-  >
+  <section class="flex justify-center py-12 bg-center bg-[url('../assets/images/tm-bg.jpeg')] bg-no-repeat bg-cover">
     <div class="w-11/12 2xl:w-4/6">
       <div class="py-3 text-center ">
-       
+
         <h2 class="text-2xl relative overflow-hidden inline-block px-4 py-2 font-bold text-[#fff] capitalize">
           Testimonials
-       
+
         </h2>
-       
-        <p class="py-0 text-5xl font-semibold capitalize text-gray-50">
+
+        <p class="py-0 text-xl font-semibold capitalize md:text-5xl text-gray-50">
           What clients say
         </p>
       </div>
-      <swiper
-        :slidesPerView="'3'"
-        :loop="true"
-        :centeredSlides="false"
-        :spaceBetween="10"
-        :pagination="{
-          clickable: false,
-        }"
-        :autoplay="{
-          delay: 2500,
-          disableOnInteraction: false,
-        }"
-        :navigation="true"
-        :modules="modules"
-        class="mySwiper"
-      >
+
+      <swiper :slidesPerView="'1'" :loop="true" :centeredSlides="false" :spaceBetween="10" :pagination="{
+        clickable: false,
+      }" :autoplay="{
+        delay: 2500,
+        disableOnInteraction: false,
+      }" :navigation="true" :modules="modules" class="mySwiper">
         <!-- <div class="swiper-slide">Slide 2</div> -->
-        <swiper-slide
-          class="relative h-full px-16"
-          v-for="data in reviewData"
-          :key="data.id"
-        >
-          <div class="px-3 mt-12 py-6 bg-[#BDF1F6] mx-auto h-[20rem] ">
-            <div class="absolute top-[-3%] left-[50%]  translate-x-[-50%] py-3">
-              <img
-                class="h-20 mx-auto bg-white rounded-full"
-                :src="`/customers/${data.imgurl}`"
-                alt=""
-              />
+        <swiper-slide class="relative md:h-full md:px-16" v-for="data in reviewData" :key="data.id">
+          <div class="px-3 mt-3 py-6 bg-[#BDF1F6] mx-auto h-[20rem] ">
+            <div class="absolute top-[-20%] left-[50%]  translate-x-[-50%] py-3">
+              <img class="h-20 mx-auto bg-white rounded-full" :src="`/customers/${data.imgurl}`" alt="" />
             </div>
             <div class="relative mt-10">
               <p class="text-xl font-bold leading-3 text-center">
@@ -50,7 +31,7 @@
               </p>
               <p class="text-center">{{ data.type }}</p>
               <strong class="absolute left-0 text-5xl font-bold"> &ldquo;</strong>
-              <p class="px-6 py-1 mt-5">
+              <p class="px-6 py-1 mt-5 text-sm">
                 {{ data.message }}
               </p>
               <strong class="absolute bottom-[-3] right-0 text-5xl font-bold"> &ldquo;</strong>
@@ -121,15 +102,17 @@ body {
   margin: 0;
   padding: 0;
 }
+
 .tape {
   position: absolute;
   width: 50px;
   height: 10px;
   background: #0245A3;
 }
+
 .swiper {
-  padding: 10rem 0;
-  width: 100%;
-  height: 100%;
+  padding: 3rem 0;
+  width: 80%;
+  height: 60%;
 }
 </style>
