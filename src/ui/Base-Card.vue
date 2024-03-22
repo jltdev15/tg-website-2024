@@ -1,5 +1,5 @@
 <template>
-    <section class="  bg-[#ffffff]">
+    <section class="  bg-[#ffffff] xs:px-6 md:px-6 ">
         <slot name="content"></slot>
 
     </section>
