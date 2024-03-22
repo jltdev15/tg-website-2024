@@ -2,36 +2,36 @@
   <base-card>
     <template #content>
       <div class="p-3">
-        <div class="pt-6 sm:pt-0">
+        <div class="pt-6 ">
           <p class="font-bold lg:text-2xl">Features</p>
-          <h3 class="text-2xl font-bold text-[#0245A3] lg:text-3xl">What makes us different</h3>
+          <h3 class="text-2xl font-bold text-[#0245A3] lg:text-3xl xl:text-4xl">What makes us different</h3>
 
         </div>
         <div class="flex flex-col ">
           <ul
             class="grid w-full grid-cols-2 gap-3 py-3 font-bold md:px-3 sm:grid sm:grid-cols-2 lg:grid-cols-5 justify-evenly md:py-6">
-            <li class="flex items-center gap-3 p-3 text-base rounded shadow lg:shadow-none">
+            <li class="flex items-center gap-3 p-3 text-base rounded shadow ">
               <img class="object-cover w-8 h-auto sm:w-12 md:w-14 lg:w-10" src="../assets/features/1.webp" alt="">
-              <p class="text-sm font-semibold text-gray-500 md:text-xl lg:text-base">Customization</p>
+              <p class="text-sm font-semibold text-gray-500 md:text-xl lg:text-base 2xl:text-xl">Customization</p>
             </li>
-            <li class="flex items-center gap-3 p-3 text-base rounded shadow lg:shadow-none">
+            <li class="flex items-center gap-3 p-3 text-base rounded shadow ">
               <img class="object-cover w-8 h-auto sm:w-12 md:w-14 lg:w-10" src="../assets/features/3.webp" alt="">
               <p class="text-sm font-semibold text-gray-500 md:text-xl lg:text-base">Scalability</p>
             </li>
-            <li class="flex items-center gap-3 p-3 text-base rounded shadow lg:shadow-none"><img
+            <li class="flex items-center gap-3 p-3 text-base rounded shadow "><img
                 class="object-cover w-8 h-auto sm:w-12 md:w-14 lg:w-10" src="../assets/features/2.webp" alt="">
               <p class="text-sm font-semibold text-gray-500 md:text-xl lg:text-base">Innovation</p>
             </li>
-            <li class="flex items-center gap-3 p-3 text-base rounded shadow lg:shadow-none"><img
+            <li class="flex items-center gap-3 p-3 text-base rounded shadow "><img
                 class="object-cover w-8 h-auto sm:w-12 md:w-14 lg:w-10" src="../assets/features/4.webp" alt="">
               <p class="text-sm font-semibold text-gray-500 md:text-xl lg:text-base">Support</p>
             </li>
-            <li class="flex items-center gap-3 p-3 text-base rounded shadow lg:shadow-none"><img
+            <li class="flex items-center gap-3 p-3 text-base rounded shadow "><img
                 class="object-cover w-8 h-auto sm:w-12 md:w-14 lg:w-10" src="../assets/features/5.webp" alt="">
               <p class="text-sm font-semibold text-gray-500 md:text-xl lg:text-base">Security</p>
             </li>
           </ul>
-          <div class="flex flex-col items-start gap-3 md:pt-12 between">
+          <div class="flex flex-col items-start gap-3 ">
             <div class="w-full ">
               <h1 class="text-2xl capitalize font-bold lg:text-3xl  text-[#0245A3]">
                 Track our services with ease

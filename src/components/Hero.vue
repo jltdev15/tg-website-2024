@@ -2,13 +2,13 @@
   <base-card>
     <template #content>
       <section class="flex justify-center pt-24 pb-16 bg-gray-10 z-[-1] bg-transparent">
-        <div class="container grid items-center px-3 sm:w-full sm:grid-cols-2 2xl:px-16 place-items-center">
+        <div class="container grid items-center px-3 sm:w-full sm:grid-cols-2 place-items-center">
           <div class="text-gray-700 sm:row-start-1">
 
-            <h1 class="text-3xl xs:text-3xl md:text-5xl xl:text-6xl 2xl:text-7xl font-bold lg:leading-[3rem] sm:py-3">
-              Dynamic All in One Solution.
+            <h1 class="text-3xl xs:text-3xl md:text-4xl 2xl:text-5xl font-bold lg:leading-[3rem] sm:py-3">
+              Empowering Efficiency, Elevating Innovation
             </h1>
-            <p class="text-sm text-gray-500 xs:text-base sm:text-sm lg:text-base">
+            <p class="text-sm text-gray-500 xs:text-base sm:text-sm lg:text-base xl:text-lg">
               Beyond Boundaries, Digitally Driven Hardware Solutions.
             </p>
             <div class="">

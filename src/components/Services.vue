@@ -1,11 +1,11 @@
 <template>
-  <section class="flex justify-center py-3 xs:px-6 sm:px-3 md:px-3 lg:px-6 xl:px-32 bg-[#F2FCFC]">
+  <section class="flex xl:py-12 justify-center py-6 xs:px-6 sm:px-3 md:px-3 lg:px-6 xl:px-32 bg-[#F2FCFC]">
     <div class="w-full sm:px-6 lg:px-3">
-      <div class="px-3 py-3 sm:px-0">
+      <div class="px-3 sm:px-0">
         <h2 class="font-bold capitalize lg:text-2xl">
           Our Services
         </h2>
-        <p class="py-0 text-2xl font-bold text-[#0245A3] capitalize lg:text-3xl">
+        <p class="py-0 text-2xl font-bold text-[#0245A3] capitalize lg:text-3xl xl:text-4xl">
           Diversified services for your convenient
         </p>
       </div>
@@ -16,7 +16,7 @@
             <img class="w-8 h-auto xs:w-10 sm:w-20 lg:w-16 max-w-max" src="../assets/images/app-dev.webp"
               alt="Software Developement Services" />
             <div class="">
-              <p class="leading-[1rem] text-xl py-4 md:py-2 font-bold">
+              <p class="leading-[1rem] text-xl py-4 md:py-2 2xl:py-4 font-bold">
                 Software Development
               </p>
               <p class="hidden pb-3 text-sm leading-tight text-gray-900 sm:block">
