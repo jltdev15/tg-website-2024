@@ -8,7 +8,7 @@
             <h1 class="text-3xl xs:text-3xl md:text-4xl 2xl:text-5xl font-bold lg:leading-[3rem] sm:py-3">
               Empowering Efficiency, Elevating Innovation
             </h1>
-            <p class="text-sm text-gray-500 xs:text-base sm:text-sm lg:text-base xl:text-lg">
+            <p class="py-1 text-sm text-gray-500 xs:text-base sm:text-sm lg:text-base xl:text-lg">
               Beyond Boundaries, Digitally Driven Hardware Solutions.
             </p>
             <div class="">
