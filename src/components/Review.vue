@@ -1,6 +1,6 @@
 <template>
   <section class="flex justify-center py-12 bg-center bg-[url('../assets/images/tm-bg.jpeg')] bg-no-repeat bg-cover">
-    <div class="w-11/12 2xl:w-4/6">
+    <div class="w-5/6 xs:w-4/6 sm:w-11/12 md:w-9/12 lg:w-full lg:px-16 xl:px-32">
       <div class="py-3 text-center ">
 
         <h2 class="text-2xl relative overflow-hidden inline-block px-4 py-2 font-bold text-[#fff] capitalize">
@@ -8,7 +8,7 @@
 
         </h2>
 
-        <p class="py-0 text-xl font-semibold capitalize md:text-5xl text-gray-50">
+        <p class="py-0 text-2xl font-semibold capitalize md:text-5xl text-gray-50">
           What clients say
         </p>
       </div>
@@ -18,11 +18,29 @@
       }" :autoplay="{
         delay: 2500,
         disableOnInteraction: false,
-      }" :navigation="true" :modules="modules" class="mySwiper">
+      }" :navigation="false" :modules="modules" :breakpoints="{
+        '360': {
+          slidesPerView: 1,
+          spaceBetween: 0,
+        },
+        '640': {
+          slidesPerView: 2,
+          spaceBetween: 50,
+        },
+        '768': {
+          slidesPerView: 2,
+          spaceBetween: 30,
+        },
+        '1024': {
+          slidesPerView: 3,
+          spaceBetween: 100,
+        },
+
+      }" class="mySwiper">
         <!-- <div class="swiper-slide">Slide 2</div> -->
-        <swiper-slide class="relative md:h-full md:px-16" v-for="data in reviewData" :key="data.id">
-          <div class="px-3 mt-3 py-6 bg-[#BDF1F6] mx-auto h-[20rem] ">
-            <div class="absolute top-[-20%] left-[50%]  translate-x-[-50%] py-3">
+        <swiper-slide class="relative md:h-full " v-for="data in reviewData" :key="data.id">
+          <div class="px-3 mt-3 py-6 bg-[#BDF1F6] mx-auto h-64 xl:h-72 ">
+            <div class="absolute top-[-15%] left-[50%]  translate-x-[-50%] py-3">
               <img class="h-20 mx-auto bg-white rounded-full" :src="`/customers/${data.imgurl}`" alt="" />
             </div>
             <div class="relative mt-10">
@@ -31,7 +49,7 @@
               </p>
               <p class="text-center">{{ data.type }}</p>
               <strong class="absolute left-0 text-5xl font-bold"> &ldquo;</strong>
-              <p class="px-6 py-1 mt-5 text-sm">
+              <p class="px-6 py-1 mt-2 text-sm text-justify xl:text-base">
                 {{ data.message }}
               </p>
               <strong class="absolute bottom-[-3] right-0 text-5xl font-bold"> &ldquo;</strong>
@@ -103,6 +121,10 @@ body {
   padding: 0;
 }
 
+.swiper-pager {
+  visibility: hidden;
+}
+
 .tape {
   position: absolute;
   width: 50px;
@@ -112,7 +134,14 @@ body {
 
 .swiper {
   padding: 3rem 0;
-  width: 80%;
-  height: 60%;
+
+}
+
+@media screen and (min-width: 768px) {
+  .swiper {
+    padding: 3rem 0;
+    width: 100%;
+    height: 80%;
+  }
 }
 </style>
