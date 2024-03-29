@@ -1,7 +1,7 @@
 <template>
   <base-card>
     <template #content>
-      <section class="flex justify-center  py-6 bg-[#fff]">
+      <section class="flex justify-center  py-6 2xl:py-24 bg-[#fff]">
         <div class="w-11/12">
           <div class="py-3">
             <h1 class="text-lg font-bold text-center uppercase lg:text-2xl sm:text-xl xl:text-3xl">
