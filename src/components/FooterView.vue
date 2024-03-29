@@ -1,7 +1,7 @@
 <template>
-  <section class="flex justify-center py-12 bg-[#F2FCFC]">
-    <div class="container px-16">
-      <div class="grid grid-cols-2 grid-columns gap-x-10">
+  <section class=" bg-[#F2FCFC] py-12">
+    <div class="px-3 sm:px-9">
+      <div class="grid md:grid-cols-2 grid-columns gap-x-12 gap-y-6">
         <div class="flex flex-col gap-3">
           <div class="flex items-center gap-3">
             <img class="w-[20%]" src="../assets/images/tg.png" alt="" />
@@ -15,8 +15,8 @@
             </p>
           </div>
         </div>
-        <div class="flex flex-col gap-3">
-          <div class="flex items-center py-4">
+        <div class="flex flex-col md:gap-3">
+          <div class="flex items-center md:py-4">
             <p class="text-lg font-bold uppercase">Contact Information</p>
           </div>
           <ul class="flex flex-col gap-2">
@@ -31,11 +31,11 @@
             </li>
           </ul>
         </div>
-        <div class="flex flex-col gap-3">
-          <div class="flex items-center py-4">
+        <div class="flex flex-col md:gap-3">
+          <div class="flex items-center md:py-4">
             <p class="text-lg font-bold uppercase">Quick link</p>
           </div>
-          <ul class="flex flex-col gap-2">
+          <ul class="flex flex-col md:gap-2">
             <li class="flex items-center gap-3">
               <a href="">Services</a>
             </li>
@@ -53,8 +53,8 @@
             </li>
           </ul>
         </div>
-        <div class="flex flex-col gap-3">
-          <div class="flex items-center py-4">
+        <div class="flex flex-col md:gap-3">
+          <div class="flex items-center md:py-4">
             <p class="text-lg font-bold uppercase">Follow us</p>
           </div>
           <ul class="flex gap-6 text-xl text-[#0245A3]">

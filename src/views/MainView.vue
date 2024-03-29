@@ -18,8 +18,9 @@ import CopyRight from "@/components/CopyRight.vue";
     <features></features>
     <review></review>
     <blog></blog>
-    <!-- <top-articles></top-articles>
-    <news-letter></news-letter> -->
-
+    <top-articles></top-articles>
+    <news-letter></news-letter>
+    <footer-view></footer-view>
+    <copy-right></copy-right>
   </main>
 </template>

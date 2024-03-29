@@ -46,9 +46,10 @@
                 <img src="../assets/images/track.webp" class="object-cover w-full h-auto sm:w-11/12" alt="" />
               </di>
               <div class="w-full py-3 md:py-0">
-
+                <p class="pl-0 text-center xl:text-left xl:pl-6" for="service-code ">Please provide service code</p>
                 <div class="relative flex items-center p-3">
-                  <input type="text" placeholder="Enter URL here"
+
+                  <input type="text" id="service-code" placeholder="Enter Service code here"
                     class="pl-6  bg-[#F2FCFC] overflow-hidden py-3 w-full flex-initial  md:py-3  rounded-full focus:outline outline-2 outline-blue-900" />
                   <button
                     class="absolute right-2  h-4/6 md:px-12 px-6 rounded-tr-full rounded-br-full rounded-full bg-[#0245A3] text-gray-50">Track

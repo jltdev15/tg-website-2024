@@ -9,30 +9,30 @@
           </div>
           <div class="grid items-center justify-start grid-cols-2 md:grid-cols-4 gap-x-6 gap-y-5">
             <div class="">
-              <img class="w-full aspect-square rounded-2xl xl:p-6"
+              <img class="w-full aspect-square rounded-2xl "
                 src="https://i0.wp.com/asiatimes.com/wp-content/uploads/2023/04/ai-banner-800x450_tcm100-7204059_tcm100-6286607-32-e1682715117206.jpeg?fit=1212%2C900&ssl=1"
                 alt="" />
-              <p class="py-2 text-base font-bold text-center">AI Technology</p>
-              <p class="text-sm text-center text-gray-400">10 Articles</p>
+              <p class="text-base font-bold text-center md:text-xl">AI Technology</p>
+              <p class="text-sm text-center text-gray-400 md:text-lg">10 Articles</p>
             </div>
             <div>
-              <img class="w-full rounded-2xl aspect-square xl:p-6"
+              <img class="w-full rounded-2xl aspect-square "
                 src="https://wallpapers.com/images/hd/purple-gaming-nepi2tnxp6g0mvz9.jpg" alt="" />
-              <p class="py-2 text-base font-bold text-center">Gaming</p>
-              <p class="text-sm text-center text-gray-400">12 Articles</p>
+              <p class="text-base font-bold text-center md:text-xl">Gaming</p>
+              <p class="text-sm text-center text-gray-400 md:text-lg">12 Articles</p>
             </div>
             <div>
-              <img class="w-full aspect-square rounded-2xl xl:p-6"
+              <img class="w-full aspect-square rounded-2xl "
                 src="https://ciccc.ca/wp-content/uploads/2023/10/html-css-collage-concept-with-person.jpg" alt="" />
-              <p class="py-2 text-base font-bold text-center">Web Development</p>
-              <p class="text-sm text-center text-gray-400">5 Articles</p>
+              <p class="text-base font-bold text-center md:text-xl">Web Development</p>
+              <p class="text-sm text-center text-gray-400 md:text-lg">5 Articles</p>
             </div>
             <div>
-              <img class="w-full aspect-square rounded-2xl xl:p-6"
+              <img class="w-full aspect-square rounded-2xl "
                 src="https://img.freepik.com/free-vector/gradient-futuristic-background-with-connection-concept_23-2149104857.jpg"
                 alt="" />
-              <p class="py-2 text-base font-bold text-center">Internet of Things</p>
-              <p class="text-sm text-center text-gray-400">3 Articles</p>
+              <p class="text-base font-bold text-center md:text-xl">Internet of Things</p>
+              <p class="text-sm text-center text-gray-400 md:text-lg">3 Articles</p>
             </div>
           </div>
 
